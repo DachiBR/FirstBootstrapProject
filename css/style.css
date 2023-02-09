@@ -1,0 +1,122 @@
+.p-4{
+    background-image: url(../imgs/ushguliLamaria.jpg);
+    object-fit: contain;
+}
+.cardimgs{
+    border-radius: 5px;
+}
+.pop{
+    position: fixed;
+    top:10%;
+    left: 10%;
+    right:10%;
+    bottom: 10%;
+    display: none;
+    z-index: 99;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pop2{
+  position: fixed;
+  top:5%;
+  left: 35%;
+  right:35%;
+  bottom: 10%;
+  display: none;
+  z-index: 99;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pop3{
+  position: fixed;
+  top:10%;
+  left: 30%;
+  right:30%;
+  bottom: 10%;
+  display: none;
+  z-index: 99;
+  flex-direction: column;
+  align-items: center;
+}
+.main{
+    opacity: 1;
+}
+body{
+    position: relative;
+}
+
+.NewPhoto{
+    width:100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #323d43bd;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #405058bd;
+  }
+
+/* costom Button*/
+.NewBTN{
+  margin-top: 10px;
+  width:550px;
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  border-radius: 20px;
+}
+
+.NewBTN:focus {
+  color: #000000;
+}
+
+.NewBTN:hover {
+  border-color: #6f6f6f;
+  color: #6f6f6f;
+  fill: #6f6f6f;
+}
+
+.NewBTN:active {
+  border-color: #6f6f6f;
+  color: #6f6f6f;
+  fill: #6f6f6f;
+}
+
