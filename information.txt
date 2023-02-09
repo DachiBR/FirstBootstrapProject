@@ -1,5 +1,5 @@
 Technologies used in this project:
-HTML, CSS, JavaScript and Main attribute Bootstrap ( CSS framework ).
+HTML, CSS, JavaScript and Main attribute Bootstrap framework.
 With this work you can see you how bootstrap project can be look like, however it's only based on one HTML page.
 
 It's also well organized, Code is written to be understandable to a developer, Separated folders of : pngs, imgs, css and js. All this plays a huge role
